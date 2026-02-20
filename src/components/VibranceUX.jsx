@@ -4,7 +4,7 @@ import { ExternalLink, Youtube, MessageCircle, Users, Smartphone, Calendar, Star
 const VibranceUX = ({ isDark = false }) => {
     // Theme-aware colors
     const textPrimary = isDark ? "text-white" : "text-black";
-    const textSecondary = isDark ? "text-neutral-400" : "text-neutral-600";
+    const textSecondary = isDark ? "text-neutral-400" : "text-gray-600";
     const textAccent = isDark ? "text-purple-400" : "text-purple-600";
 
     // Theme-aware backgrounds and borders - always dark cards
@@ -92,27 +92,6 @@ const VibranceUX = ({ isDark = false }) => {
 
     return (
         <div className="relative z-10 max-w-7xl mx-auto">
-            {/* Hero Banner */}
-            <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6 }}
-                className="relative mb-10 overflow-hidden border border-neutral-800"
-            >
-                <img
-                    src="/images/vibrance-ux-banner.png"
-                    alt="Vibrance UX Custom ROM Banner"
-                    className="w-full h-48 md:h-64 object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600">
-                        <Star className="w-4 h-4 text-white" />
-                        <span className="text-sm font-mono text-white uppercase tracking-wider">Legacy Project • 2017</span>
-                    </div>
-                    <span className="text-xs font-mono text-neutral-400">Custom Android ROM</span>
-                </div>
-            </motion.div>
 
             {/* Header */}
             <motion.div
@@ -122,12 +101,12 @@ const VibranceUX = ({ isDark = false }) => {
                 className="text-center mb-12"
             >
                 <h3 className={`text-3xl md:text-4xl font-bold ${textPrimary} mb-4`}>
-                    Vibrance <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">UX</span>
+                    Vibrance <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">UX</span>
                 </h3>
 
-                <p className={`${textSecondary} max-w-2xl mx-auto`}>
-                    A custom Android ROM I built <span className={`${textPrimary} font-medium`}>during 12th grade</span> that brought
-                    Galaxy S8/S9 features to budget Samsung devices. It gained <span className={`${textAccent} font-medium`}>thousands of users</span> worldwide.
+                <p className={`${textSecondary} max-w-2xl mx-auto text-base leading-relaxed`}>
+                    A custom Android ROM I built <span className={`${textPrimary} font-black`}>during 12th grade</span> that brought
+                    Galaxy S8/S9 features to budget Samsung devices. It gained <span className={`${textAccent} font-bold`}>thousands of users</span> worldwide.
                 </p>
             </motion.div>
 
