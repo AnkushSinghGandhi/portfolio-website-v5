@@ -27,7 +27,6 @@ import TimeComplexityPrimer from "./pages/TimeComplexityPrimer";
 import Links from "./pages/Links";
 import Custom404 from "./pages/404";
 import TerminalWidget from "./components/TerminalWidget";
-import CursorFollower from "./components/CursorFollower";
 
 export default function App() {
   // Preload critical images on app mount
@@ -59,7 +58,6 @@ export default function App() {
 
   return (
     <>
-      <CursorFollower />
       {!isLinksPage && <Navbar />}
       <ScrollToTop />
       <Routes>
