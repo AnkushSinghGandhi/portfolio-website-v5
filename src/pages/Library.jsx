@@ -50,7 +50,7 @@ export default function LibraryPage() {
             <Navbar />
 
             {/* AI Companion */}
-            <AiToolbox context={aiContext || "Welcome to Ankush's Developer Archive. Select a roadmap or article to get specific AI insights, or ask general questions about the library content."} />
+            {/*<AiToolbox context={aiContext || "Welcome to Ankush's Developer Archive. Select a roadmap or article to get specific AI insights, or ask general questions about the library content."} /> */}
 
             <section className="relative px-6 sm:px-12 lg:px-20 py-24 pt-32 sm:pt-44 overflow-hidden">
                 {/* Grid Background */}

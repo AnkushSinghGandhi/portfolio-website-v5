@@ -89,7 +89,7 @@ export default function App() {
         <Route path="/links" element={<Links />} />
         <Route path="*" element={<Custom404 />} />
       </Routes>
-      <TerminalWidget />
+      {/*<TerminalWidget />*/}
     </>
   );
 }
