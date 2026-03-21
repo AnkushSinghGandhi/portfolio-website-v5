@@ -1,12 +1,24 @@
 import desiDiariesLogo from "@/assets/logos/desi-diaries.png";
+import careers360Logo from "@/assets/logos/careers-360.png";
 
 export const experiences = [
     {
         id: "LOG_01",
+        role: "Software Development Engineer (Backend)",
+        company: "Careers 360",
+        logo: careers360Logo,
+        period: "March 2026 – Present",
+        location: "Gurugram, Haryana",
+        details: [
+            "Working on College Predictor which is one of the core feature of Careers360 which has 15M monthly active users.",
+        ],
+    },
+    {
+        id: "LOG_02",
         role: "Software Development Engineer",
         company: "Desi Diaries",
         logo: desiDiariesLogo,
-        period: "May 2023 – Present",
+        period: "May 2023 – Dec 2025",
         location: "Remote",
         details: [
             "Developed and maintained financial microservices using Flask, Django, REST APIs, Python, and MongoDB for real-time trading analytics, stock market data processing, and portfolio management systems.",
@@ -18,7 +30,7 @@ export const experiences = [
         ],
     },
     {
-        id: "LOG_02",
+        id: "LOG_03",
         role: "Flutter Developer",
         company: "Desi Diaries",
         logo: desiDiariesLogo,

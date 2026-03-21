@@ -61,7 +61,7 @@ export default function OneShotPage({ data }) {
             <Navbar />
             {showConfetti && <div className="fixed inset-0 z-50 pointer-events-none"><confetti width={window.innerWidth} height={window.innerHeight} /></div>}
 
-            <AiToolbox context={aiContext} />
+            {/*<AiToolbox context={aiContext} />*/}
 
             <main className="relative px-6 sm:px-12 lg:px-20 py-24 pt-32 sm:pt-44 overflow-hidden">
                 {/* Grid Background */}
