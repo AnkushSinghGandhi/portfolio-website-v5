@@ -71,8 +71,8 @@ export const labProjects = [
     title: "Pryti - Semantic PR Reviewer",
     tech: ["Python", "AST", "GitHub Actions", "PyPI"],
     desc: "A deterministic semantic PR reviewer for Python web apps — no LLM, no API key. Git tells you what lines changed; Pryti tells you what they mean and where to look, surfacing risky changes by severity.",
-    url: "https://warriorwhocodes.com/pryti",
-    thumbnail: "/pryti/images/00-welcome.png",
+    url: "https://warriorwhocodes.com/pryti-semantic-reviewer",
+    thumbnail: "/pryti-semantic-reviewer/images/00-welcome.png",
   },
   {
     title: "DeltaStream - Option Analysis",

@@ -1,4 +1,6 @@
-# old Prism → Pryti rename (keep shared links alive)
-/prism      /pryti/           301
-/prism/*    /pryti/:splat     301
+# keep old shared links alive → canonical /pryti-semantic-reviewer/
+/prism                    /pryti-semantic-reviewer/         301
+/prism/*                  /pryti-semantic-reviewer/:splat   301
+/pryti                    /pryti-semantic-reviewer/         301
+/pryti/*                  /pryti-semantic-reviewer/:splat   301
 /* /index.html 200
