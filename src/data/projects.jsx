@@ -68,11 +68,11 @@ export const clientProjects = [
 
 export const labProjects = [
   {
-    title: "Prism - Semantic PR Reviewer",
+    title: "Pryti - Semantic PR Reviewer",
     tech: ["Python", "AST", "GitHub Actions", "PyPI"],
-    desc: "A semantic pull-request reviewer for Python web apps. Git tells you what lines changed — Prism tells you what they mean and where to look, surfacing risky changes by severity.",
-    url: "https://warriorwhocodes.com/prism",
-    thumbnail: "/prism/images/00-welcome.png",
+    desc: "A deterministic semantic PR reviewer for Python web apps — no LLM, no API key. Git tells you what lines changed; Pryti tells you what they mean and where to look, surfacing risky changes by severity.",
+    url: "https://warriorwhocodes.com/pryti",
+    thumbnail: "/pryti/images/00-welcome.png",
   },
   {
     title: "DeltaStream - Option Analysis",

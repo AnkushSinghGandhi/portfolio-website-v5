@@ -1,1 +1,4 @@
+# old Prism → Pryti rename (keep shared links alive)
+/prism      /pryti/           301
+/prism/*    /pryti/:splat     301
 /* /index.html 200
